@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "libs/*",
+]
+exclude = [
+    "days"
+]
+resolver = "2"
+[workspace.package]
+version = "0.7.0"
+edition = "2021"
